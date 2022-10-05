@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/*
+Theme Name: Wordpress - Tema Personalizado
+Theme URI: https://gitlab.com/andersonhsilva/
+Author: Anderson Henrique da Silva
+Author URI: https://genesis.dev.br
+Description: Tema criado para fins particulares empresariais
+
+RewriteEngine on
+RewriteBase /
+RewriteRule . /wp/index.php [L]
+
+*/
