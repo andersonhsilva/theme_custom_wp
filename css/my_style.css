@@ -1,3 +1,22 @@
+#nav-principal ul li a:hover {
+	color: green;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+}
+
+body {
+	background-color: rgb(240, 240, 240);
+}
+
+.fundo {
+	width: 1080px;
+}
+
+.title {
+	font-weight: 900;
+}
+
+
 @media screen and (max-width: 1200px) {
 
 }
