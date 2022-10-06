@@ -26,7 +26,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">
+              <a href="/mercados/" class="nav-link">
                 <h3>Mercados</h3>
               </a>
             </li>
