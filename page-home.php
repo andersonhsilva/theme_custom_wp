@@ -31,7 +31,7 @@ Template Name: Pagina Home
                 </div>
                 <!--/fim textos da seção -->
                 <div class="col-md-6 d-md-block">
-                    <img class="bg-img" src="img/fundo.png">
+                    <img class="bg-img" src="<?= get_template_directory_uri() ?>/img/fundo.png">
                 </div>
             </div>
         </div>
