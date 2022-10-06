@@ -10,8 +10,8 @@ Template Name: Pagina Home
     <section class="d-flex">
         <!-- Início seção home -->
         <div class="container align-self-center pt-5 pb-5">
-            <div class="row">
-                <div class="col-md-6 d-flex">
+            <div class="row pt-5">
+                <div class="col-md-7 d-flex mt-3">
                     <!-- Textos da seção -->
                     <div class="align-self-center">
                         <h1 class="title">Investimentos internacionais seguros, transparentes e lucrativos.</h1>
@@ -29,8 +29,8 @@ Template Name: Pagina Home
                     </div>
                 </div>
                 <!--/fim textos da seção -->
-                <div class="col-md-6 d-md-block">
-                    <img class="bg-img" src="<?= get_template_directory_uri() ?>/img/fundo.png">
+                <div class="col-md-5 d-md-block mt-3">
+                    <img class="bg-img" style="padding-right: 100px;" src="<?= get_template_directory_uri() ?>/img/fundo.png">
                 </div>
             </div>
         </div>
