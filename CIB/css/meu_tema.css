@@ -1,0 +1,275 @@
+/* espacamento dos pontos de ancoragem */
+#contato {
+  margin-top: -270px;
+}
+
+/* linha no topo do site */
+.header-top {
+  padding: 15px 0 9px;
+  position: relative;
+  background-color: #7daa35;
+}
+.cores-icons {
+  color: #045f2c;
+}
+
+/* menu navar do topo */
+.logo-marca {
+  position: absolute;
+  margin-bottom: -20px;
+  z-index: 200;
+}
+@media screen and (max-width: 1200px) {
+  .logo-marca a img {
+    max-height:100px;
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 991px) {
+  .logo-marca a img {
+    margin-top: -20px;
+  }
+  nav.mean-nav {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 492px) {
+  .logo-marca a img {
+    max-height:83px;
+    width: auto;
+    height: auto;
+  }
+}
+
+/* cor do X para fechar o menu responsivo */
+.meanmenu-reveal {
+  color: white !important;
+}
+.background_navbar {
+  background-image: linear-gradient(to bottom, #539946, #3a7f3c);
+}
+.background_footer {
+  background-image: linear-gradient(to top, #3c2b60, #543c84, #543c84, #543c84, #3c2b60);
+}
+.background_lin_rodape {
+  background-color: #301e4e;
+}
+.main-menu nav>ul>li>a {
+  color: white;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main-menu nav>ul>li>a:hover {
+  color: white;
+  font-weight: bold;
+  background-color: #17a554;
+}
+
+/* fullbanners */
+#fullbanners > h1, h2, h3, h4, h5, p, button, a {
+  font-family: 'Roboto', sans-serif;
+}
+#fullbanners h1 {
+  font-size: 30px;
+}
+#fullbanners P {
+  font-size: 16px;
+}
+.body_content {
+  margin-left: 30%;
+}
+
+/* ------------- botoes -------------------- */
+.btn-cib-um a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1.1;
+  font-weight: bold;
+  font-size: 36px;
+  background-image: linear-gradient(to right, #f3651d, #faa062);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+.btn-cib-dois {
+  color: white !important;
+  background-image: linear-gradient(to right, #42247f, #68489d);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+/* ajusta as cores dos links dos whidget adicionados no rodape */
+#widget-rodape div ul a {
+  color: white;
+}
+#widget-rodape div ul a:hover {
+  color: #00a651;
+}
+
+/* cor do icone do instagram nas redes sociais */
+a.icone_instagram {
+  color: #517fa4;
+}
+
+/* ajusta os icones das redes sociais do topo*/
+#social_top {
+  margin-top: -8px;
+}
+#social_top .footer-social:before {
+  display: none;
+}
+
+/* ajusta o submenu do topo obs: css copiado da class default do thema submenu no arquivo style.css */
+.main-menu nav ul li ul.sub-menu {
+  background: #fff none repeat scroll 0 0;
+  -webkit-box-shadow: 0 0 7px 0.5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 7px 0.5px rgba(0, 0, 0, 0.15);
+  display: block;
+  left: 0;
+  padding: 20px 0px 22px;
+  position: absolute;
+  top: 100%;
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: center top 0;
+  -ms-transform-origin: center top 0;
+  transform-origin: center top 0;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  visibility: hidden;
+  width: 190px;
+  z-index: 999;
+}
+.main-menu nav ul li ul.sub-menu li {
+  display: block;
+  padding: 0 20px;
+  margin-left: 0px;
+}
+.main-menu nav ul li ul.sub-menu li a {
+  color: #333;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-transform: capitalize;
+  padding-top: 0px;
+}
+.main-menu nav ul li ul.sub-menu li a:hover {
+  color: #00a651;
+}
+.main-menu nav ul li ul.sub-menu li a::before {
+  background: #00a651 none repeat scroll 0 0;
+  border-radius: 50%;
+  content: "";
+  height: 7px;
+  left: 15px;
+  opacity: 0;
+  position: absolute;
+  top: 13px;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  width: 7px;
+  z-index: 999;
+}
+.main-menu nav ul li ul.sub-menu li:hover a::before {
+  opacity: 1;
+}
+.main-menu nav ul li ul.sub-menu li:hover a {
+  padding-left: 12px;
+}
+.main-menu nav ul li:hover > ul.sub-menu {
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  visibility: visible;
+}
+
+.breadcrumb-bottom {
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: gray;
+  background-color: LightGray;
+}
+.wp-block-quote {
+  border-left-width: 3px;
+  border-left-style: solid;
+  border-left-color: #00a651;
+  background-color: #eefff6;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.wp-block-quote p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* ocuta os videos do youtube do quem somos na home para funcionar apenas pelo botao play da imagem principal */
+div.about-us figure.wp-block-embed-youtube {
+  display: none;
+}
+
+ul.wp-block-gallery li figure {
+  opacity:1;
+}
+ul.wp-block-gallery li figure:hover {
+  opacity:0.5;
+}
+
+/* imagens do contador de eventos */
+.imagem_branca {
+  filter: brightness(1000);
+  color: white;
+}
+
+/* ----------- galeria de fotos -------------- */
+.bg-galeria {
+  background-image: url(../imgs/sections/background1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* imagens da galeria do wordpress */
+ul.wp-block-gallery li {
+  background-color: #68489d;
+  background-image: url(../imgs/sections/add-searching.svg);
+  background-size: 20% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* botoes */
+div.owl-nav > div.owl-prev {
+  margin-top: -125px;
+}
+div.owl-nav > div.owl-next {
+  margin-top: -125px;
+}
+.img-border-cib {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #68489d;
+}
+/* deixa a imagem responsiva na tela */
+.bg-img {
+  background-position: center center;
+  background-size: cover;
+}
+
+@keyframes piscar {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 0; }
+}
+.piscar:not(.small) {
+  -webkit-animation: piscar .75s linear infinite;
+  -moz-animation: piscar .75s linear infinite;
+  -ms-animation: piscar .75s linear infinite;
+  -o-animation: piscar .75s linear infinite;
+  animation: piscar .75s linear infinite;
+  color: yellow;
+}
+
+form.contato input, form.contato textarea {
+  background-color: #eefff6;
+}

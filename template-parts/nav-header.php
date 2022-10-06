@@ -3,11 +3,15 @@
   ?>
   <header>
     <!-- inicio Cabecalho -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
       <div class="container">
 
         <a href="#" class="navbar-brand">
-          <img src="<?= get_template_directory_uri() ?>/img/logo_ok.png" width="180">
+          <?php
+          $custom_logo_id = get_theme_mod('custom_logo');
+          $image = wp_get_attachment_image_src($custom_logo_id, 'full');
+          ?>
+          <img src="<?= $image[0]; ?>" width="250" height="auto">
         </a>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">

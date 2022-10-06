@@ -1,0 +1,137 @@
+#nav-principal ul li a:hover {
+	color: green;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+  }
+  
+  body {
+	background-color: rgb(240, 240, 240);
+  }
+  
+  .bg-img {
+	width: 1080px;
+  }
+  
+  .img-box-size {
+	width: 100%;
+  }
+  
+  .img-box {
+	padding: 60px;
+  }
+  
+  .circle {
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+  }
+  
+  .circle img {
+	width: 50%;
+	padding-top: 100px;
+  }
+  
+  .title {
+	font-weight: 900;
+	font-size: 80px;
+  }
+  
+  .description {
+	font-size: 1.4em;
+  }
+  
+  .box {
+	border-radius: 50px;
+	width: 500px;
+	height: 500px;
+	position: relative;
+  }
+  
+  .box-carrousel {
+	border-radius: 50px;
+	width: 100%;
+	height: 500px;
+  }
+  
+  .box-logo {
+	width: 50%;
+	height: 10%;
+	margin-left: 25%;
+	margin-top: 10%;
+  }
+  
+  .box-content {
+	width: 80%;
+	height: 10%;
+	margin-left: 10%;
+	margin-top: 10%;
+  }
+  
+  .client-photo-div {
+	margin-top: 40%;
+	margin-left: 5%;
+  }
+  
+  .client-photo {
+	background-color: #ddd;
+	border-radius: 50%;
+	height: 200px;
+	object-fit: cover;
+	width: 200px;
+  }
+  
+  .client-name-size {
+	font-size: 60px;
+  }
+  
+  .input-size{
+	  width: 250px;
+	  height: 40px;
+  }
+  
+  .little-circle {
+	  background-color: #ddd;
+	  border-radius: 50%;
+	  height: 50px;
+	  object-fit: cover;
+	  width: 50px;
+	}
+  
+  .caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+  }
+  
+  @media screen and (max-width: 1200px) {
+  }
+  @media screen and (max-width: 991px) {
+	.bg-img {
+	  width: 100%;
+	}
+  
+	.title {
+	  font-weight: 900;
+	  font-size: 60px;
+	}
+  
+	.client-name-size {
+	  font-size: 40px;
+	}
+  }
+  @media screen and (max-width: 492px) {
+	.bg-img {
+	  width: 100%;
+	}
+  
+	.title {
+	  font-weight: 900;
+	  font-size: 40px;
+	}
+  
+	.client-name-size {
+	  font-size: 20px;
+	}
+  }
+  

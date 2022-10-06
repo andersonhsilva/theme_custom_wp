@@ -45,7 +45,7 @@ function temawp_config(){
   add_theme_support('title-tag');
 
   // adiciona a logo do tema
-  add_theme_support('custom-logo', array('width' => 360, 'height' => 113));
+  add_theme_support('custom-logo', []); // array('width' => 360, 'height' => 113)
 
   add_theme_support('menus');
 
